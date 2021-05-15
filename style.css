@@ -4,7 +4,8 @@
 }
 
 body{
-    background: hsl(217, 28%, 15%);
+    background: hsl(218, 28%, 15%);
+    font-family: "Open Sans", sans-serif;
 }
 
 header {
@@ -40,5 +41,5 @@ img{
 .menu ul li a{
     padding: 2rem;
     font-size: 0,1rem;
-    color: white;
+    color: hsl(0, 0%, 100%);
 }
