@@ -40,10 +40,11 @@ img{
     margin-top: 3rem;
 }
 
+/*não consegui chegar ao resultado igual ao design: passar o cursor do mouse e ter uma interação*/
 
 .menu ul li a{
     padding: 2rem;
-    font-size: 0,1rem;
+    font-size: 1.2rem;
     color: hsl(0, 0%, 100%);
     position: relative;
     cursor:pointer;
@@ -62,4 +63,5 @@ img{
     left: 25%;
 }
 
-/*
+
+
