@@ -1,20 +1,17 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
 body{
     background: hsl(218, 28%, 15%);
     font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
 }
 
 header {
     font-family:"Raleway", sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 a {
     text-decoration: none;
-    transition: all 300ms ease-in-out;
 }
 
 
@@ -22,40 +19,35 @@ ul{
     list-style: none;
 }
 
-img{ 
-    margin-left: 5rem;
-    margin-top: 3rem;
-}
-
-
 .menu-content{
     display: flex;
     justify-content: space-between;
+    margin: 4rem 0 0 4rem;
     align-items: center;
 }
 
 .menu ul{
     display: flex;
-    margin-right: 5rem;
-    margin-top: 3rem;
 }
-
-/*não consegui chegar ao resultado igual ao design: passar o cursor do mouse e ter uma interação*/
 
 .menu ul li a{
-    padding: 2rem;
     font-size: 1.2rem;
+    padding: 2rem;
     color: hsl(0, 0%, 100%);
-    position: relative;
     cursor:pointer;
+    position: relative;
+    width: 100%;
 }
 
-.menu ul li a::after{
+.menu ul li a::after {
     content: '';
     position: absolute;
-    bottom: 2rem;
-    height: 0.09rem;
-    background: white;
+    bottom: 1.8rem;
+    left: 50%;
+    width: 0;
+    height: 0.1rem;
+    background: hsl(0, 0%, 100%);
+    /*nas informações não tem dizendo tem trasição dos item*/ 
 }
 
 .menu ul li a:hover::after{
