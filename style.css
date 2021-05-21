@@ -1,59 +1,70 @@
-body{
-    background: hsl(218, 28%, 15%);
-    font-family: "Open Sans", sans-serif;
-    box-sizing: border-box;
-}
-
-header {
-    font-family:"Raleway", sans-serif;
-    max-width: 1440px;
-    margin: 0 auto;
+body {
+  background: hsl(218, 28%, 15%);
+  font-family: "Open Sans", sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-.menu-content{
-    display: flex;
-    justify-content: space-between;
-    margin: 4rem 0 0 4rem;
-    align-items: center;
+.container {
+  display: flex;
 }
 
-.menu ul{
-    display: flex;
+.menu {
+  font-family: "Raleway", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 40px 0 40px;
 }
 
-.menu ul li a{
-    font-size: 1.2rem;
-    padding: 2rem;
-    color: hsl(0, 0%, 100%);
-    cursor:pointer;
-    position: relative;
-    width: 100%;
+.menu ul {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.menu ul li a::after {
-    content: '';
-    position: absolute;
-    bottom: 1.8rem;
-    left: 50%;
-    width: 0;
-    height: 0.1rem;
-    background: hsl(0, 0%, 100%);
-    /*nas informações não tem dizendo tem trasição dos item*/ 
+.menu-nav {
+  flex: 1;
 }
 
-.menu ul li a:hover::after{
-    width: 50%;
-    left: 25%;
+.menu-nav a {
+  font-size: 1.2rem;
+  padding: 2rem;
+  color: hsl(0, 0%, 100%);
 }
 
+.menu-nav a:hover {
+  text-decoration: underline;
+}
 
+@media (max-width: 700px) {
+  .menu {
+    margin: 0 auto;
+    padding: 40px 0 0 40px;
+  }
+  .menu-nav a {
+    padding: 1rem;
+  }
+}
 
+@media (max-width: 560px) {
+  .menu {
+    margin: 0 auto;
+    padding: 40px 0 0 40px;
+  }
+  .menu-nav a {
+    padding: 1rem;
+  }
+
+  .menu-nav ul {
+      width: 100%;
+  }
+
+  .menu-logo {
+      width: 100%;
+  }
+}
