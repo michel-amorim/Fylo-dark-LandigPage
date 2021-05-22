@@ -46,3 +46,16 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body {
+	background: hsl(218, 28%, 15%);
+	font-family: "Open Sans", sans-serif;
+  }
+  
+  a {
+	text-decoration: none;
+  }
+  
+  li {
+	list-style: none;
+  }
