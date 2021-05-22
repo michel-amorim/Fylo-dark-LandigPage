@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+}
+
+.menu {
+  font-family: "Raleway", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 40px 0 40px;
+}
+
+.menu-nav {
+  flex: 1;
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+}
+
+.menu-logo {
+  display: flex;
+  align-self: center;
+  justify-content: flex-start;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu-nav a {
+  font-size: 1.2rem;
+  padding: 2rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.menu-nav li {
+  display: flex;
+}
+
+
+.menu-nav a:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 650px) {
+  .menu {
+    margin: 0 auto;
+    padding: 40px 0 0 40px;
+  }
+  .menu-nav a {
+    padding: 1rem;
+  }
+  .menu-nav ul {
+    width: 291px;
+  }
+  .menu-logo {
+    width: 188px;
+    margin-right: 1rem;
+  }
+}
