@@ -50,6 +50,8 @@ table {
 body {
 	background: hsl(218, 28%, 15%);
 	font-family: "Open Sans", sans-serif;
+	max-width: 1440px;
+	margin: 0 auto;
   }
   
   a {
