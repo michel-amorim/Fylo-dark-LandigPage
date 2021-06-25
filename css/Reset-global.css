@@ -49,8 +49,8 @@ table {
 
 body {
 	background: hsl(218, 28%, 15%);
-	font-family: "Open Sans", sans-serif;
 	max-width: 1440px;
+	font-family: 'Open Sans', sans-serif;
 	margin: 0 auto;
   }
   
