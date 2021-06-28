@@ -1,4 +1,3 @@
-
 /* MENU */
 
 .container {
@@ -29,7 +28,7 @@
 }
 
 .menu-nav a {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: hsl(0, 0%, 100%);
 }
 
@@ -37,42 +36,51 @@
   text-decoration: underline;
 }
 
-@media (max-width: 823px) {
+@media (min-width: 960px) and (max-width: 1024px) {
   .menu {
-    margin: 20px 0 0 20px;
+    margin: 40px 0 0 35px;
+  }
+  .menu-logo img {
+    width: 100%;
+    max-width: 150px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 959px) {
+  .menu {
+    margin: 30px 10px 0 25px;
   }
   .menu-nav li {
     margin: 0 10px;
   }
-  .menu-nav a {
-    font-size: 1rem;
-    max-width: 50px;
-    width: 100%;
+  .menu-nav li {
+    margin: 0 1rem;
   }
-
   .menu-logo img {
-    width: 120px;
+    width: 100%;
+    max-width: 120px;
+  }
+  .menu-nav ul li a {
+    font-size: 1.1rem;
   }
 }
-@media (max-width: 359px) {
+
+@media (min-width: 359px) and (max-width: 599px) {
   .menu {
-    padding: 20px 0 0 20px;
+    margin: 20px 5px 0 20px;
   }
   .menu-nav li {
     margin: 0 10px;
   }
   .menu-nav a {
     font-size: 0.9rem;
-    max-width: 40px;
-    width: 100%;
   }
-
   .menu-logo img {
-    width: 80px;
+    max-width: 100px;
   }
 }
 
-/* MAIN */
+/* MAIN - INTRODUCTION */
 
 .intro {
   display: flex;
@@ -83,19 +91,23 @@
 
 .intro-bg {
   position: absolute;
-  z-index: 1;
   transform: translate(8%, 134%);
 }
 
-.intro-bg img {
+.intro-bg-desk {
   width: 85%;
   max-width: 1440px;
+}
+
+.intro-bg-mb {
+  display: none;
 }
 
 .intro-img,
 .intro-info {
   align-self: center;
   color: hsl(0, 0%, 100%);
+  z-index: 1;
 }
 
 .intro-info {
@@ -140,27 +152,24 @@
   background-color: #65e2d9;
 }
 
-
-
 /* MONITOR LCD AND NOTEBOOK*/
-
-
-
-@media (min-width: 1280px) and (max-width: 1399px) {
-  .intro-bg {
-    transform: translate(5%, 145%);
-  }
-  .intro-bg img {
-    width: 90%;
-  }
-}
 
 @media (min-width: 1400px) and (max-width: 1439px) {
   .intro-bg {
     transform: translate(5%, 130%);
   }
-  .intro-bg img {
+  .intro-bg-desk {
     width: 90%;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1399px) {
+  .intro-bg {
+    transform: translate(5%, 145%);
+  }
+  .intro-bg-desk {
+    width: 100%;
+    max-width: 1399px;
   }
 }
 
@@ -173,7 +182,7 @@
   .intro-bg {
     transform: translate(0%, 140%);
   }
-  .intro-bg img {
+  .intro-bg-desk {
     width: 100%;
     max-width: 1024px;
   }
@@ -189,5 +198,139 @@
   }
   .intro-info a {
     font-size: 1rem;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 959px) {
+  .intro {
+    margin: 3rem 0 0 0;
+  }
+  .intro-bg {
+    transform: translate(0%, 145%);
+  }
+  .intro-bg-desk {
+    width: 100%;
+    max-width: 959px;
+  }
+
+  .intro-img img {
+    max-width: 400px;
+  }
+  .intro-info h1 {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+  .intro-info p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 719px) {
+  .intro {
+    margin: 3rem 0 0 0;
+  }
+  .intro-bg {
+    transform: translate(0%, 200%);
+  }
+  .intro-bg-desk {
+    width: 100%;
+    max-width: 720px;
+  }
+
+  .intro-img img {
+    max-width: 400px;
+  }
+
+  .intro-info h1 {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+  .intro-info p {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 720px) and (max-width: 959px) {
+  .intro {
+    margin: 3rem 0 0 0;
+  }
+  .intro-bg {
+    transform: translate(0%, 145%);
+  }
+  .intro-bg-desk {
+    width: 100%;
+    max-width: 959px;
+  }
+
+  .intro-img img {
+    max-width: 400px;
+  }
+  .intro-info h1 {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+  .intro-info p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 719px) {
+  .intro {
+    margin: 3rem 0 0 0;
+  }
+  .intro-bg {
+    transform: translate(0%, 200%);
+  }
+  .intro-bg-desk {
+    width: 100%;
+    max-width: 720px;
+  }
+
+  .intro-img img {
+    max-width: 400px;
+  }
+
+  .intro-info h1 {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+  .intro-info p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 359px) and (max-width: 599px) {
+  .intro {
+    margin: 3rem 0 0 0;
+  }
+  .intro-bg {
+    transform: translate(2%, 70%);
+  }
+  .intro-bg-desk {
+    display: none;
+  }
+  .intro-bg-mb {
+    display: block;
+    width: 100%;
+    max-width: 599px;
+    height: 200px;
+  }
+  .intro-img img {
+    max-width: 250px;
+  }
+  .intro-info h1 {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    margin: 10px 0 10px 0;
+  }
+  .intro-info p {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+  .intro-info a {
+    font-size: 0.5rem;
+    font-weight: bold;
+    margin: 15px auto 0 auto;
+    max-width: 100px;
+    padding: 0.7rem 0.5rem;
   }
 }
