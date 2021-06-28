@@ -1,3 +1,6 @@
+
+/* MENU */
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -9,11 +12,11 @@
   margin: 80px 60px 0 60px;
 }
 
-.menu nav {
+.menu-logo {
   display: flex;
 }
 
-.menu-logo {
+.menu nav {
   display: flex;
 }
 
@@ -71,6 +74,13 @@
 
 /* MAIN */
 
+.intro {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem 0 0 0;
+  font-family: "Raleway", sans-serif;
+}
+
 .intro-bg {
   position: absolute;
   z-index: 1;
@@ -82,22 +92,15 @@
   max-width: 1440px;
 }
 
-.intro {
-  display: flex;
-  flex-direction: column;
-  margin: 5rem auto;
-  font-family: "Raleway", sans-serif;
+.intro-img,
+.intro-info {
+  align-self: center;
+  color: hsl(0, 0%, 100%);
 }
 
 .intro-info {
   position: relative;
   z-index: 2;
-}
-
-.intro-img,
-.intro-info {
-  align-self: center;
-  color: hsl(0, 0%, 100%);
 }
 
 .intro-img img {
@@ -115,7 +118,7 @@
 
 .intro-info p {
   text-align: center;
-  font-size: 1.11rem;
+  font-size: 1.2rem;
   line-height: 1.5rem;
 }
 
@@ -141,6 +144,8 @@
 
 /* MONITOR LCD AND NOTEBOOK*/
 
+
+
 @media (min-width: 1280px) and (max-width: 1399px) {
   .intro-bg {
     transform: translate(5%, 145%);
@@ -159,10 +164,12 @@
   }
 }
 
-
 /* TABLET */
 
 @media (min-width: 960px) and (max-width: 1024px) {
+  .intro {
+    margin: 4rem 0 0 0;
+  }
   .intro-bg {
     transform: translate(0%, 140%);
   }
@@ -171,18 +178,16 @@
     max-width: 1024px;
   }
   .intro-img img {
-    width: 100%;
     max-width: 500px;
   }
   .intro-info h1 {
-    font-size: 1.80rem;
+    font-size: 1.8rem;
     line-height: 2.25rem;
   }
-.intro-info p {
-  font-size: 1.3rem;
-  line-height: 1.5rem;
-}
-.intro-info a {
-  font-size: 1rem;
-}
+  .intro-info p {
+    font-size: 1.1rem;
+  }
+  .intro-info a {
+    font-size: 1rem;
+  }
 }
