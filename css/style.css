@@ -36,7 +36,6 @@
 
 @media (max-width: 823px) {
   .menu {
-    margin: 0 auto;
     margin: 20px 0 0 20px;
   }
   .menu-nav li {
@@ -70,16 +69,16 @@
   }
 }
 
-/* Main */
+/* MAIN */
 
 .intro-bg {
   position: absolute;
   z-index: 1;
-  transform: translate(0%,114%);
+  transform: translate(8%, 134%);
 }
 
 .intro-bg img {
-  width: 100%;
+  width: 85%;
   max-width: 1440px;
 }
 
@@ -107,7 +106,7 @@
 }
 
 .intro-info h1 {
-  font-weight: 600;
+  font-weight: bold;
   text-align: center;
   font-size: 2rem;
   margin: 20px auto 20px auto;
@@ -116,7 +115,7 @@
 
 .intro-info p {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.11rem;
   line-height: 1.5rem;
 }
 
@@ -136,4 +135,54 @@
 
 .intro-info a:hover {
   background-color: #65e2d9;
+}
+
+
+
+/* MONITOR LCD AND NOTEBOOK*/
+
+@media (min-width: 1280px) and (max-width: 1399px) {
+  .intro-bg {
+    transform: translate(5%, 145%);
+  }
+  .intro-bg img {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1439px) {
+  .intro-bg {
+    transform: translate(5%, 130%);
+  }
+  .intro-bg img {
+    width: 90%;
+  }
+}
+
+
+/* TABLET */
+
+@media (min-width: 960px) and (max-width: 1024px) {
+  .intro-bg {
+    transform: translate(0%, 140%);
+  }
+  .intro-bg img {
+    width: 100%;
+    max-width: 1024px;
+  }
+  .intro-img img {
+    width: 100%;
+    max-width: 500px;
+  }
+  .intro-info h1 {
+    font-size: 1.80rem;
+    line-height: 2.25rem;
+  }
+.intro-info p {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+.intro-info a {
+  font-size: 1rem;
+}
 }
