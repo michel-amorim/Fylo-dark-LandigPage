@@ -17,6 +17,10 @@
   display: flex;
 }
 
+.menu-logo img {
+  width: 100%;
+}
+
 .menu nav {
   display: flex;
 }
@@ -45,11 +49,7 @@
 
 @media (min-width: 960px) and (max-width: 1024px) {
   .menu {
-    padding: 40px 40px 0 40px;
-  }
-  .menu-logo img {
-    width: 100%;
-    max-width: 150px;
+    padding: 40px 40px 0  40px;
   }
 }
 
@@ -60,9 +60,6 @@
   .menu-nav li {
     margin: 0 1.3rem;
   }
-  .menu-logo img {
-    max-width: 120px;
-  }
   .menu-nav ul li a {
     font-size: 1.1rem;
   }
@@ -70,19 +67,16 @@
 
 @media (min-width: 320px) and (max-width: 599px) {
   .menu {
-    padding: 20px 20px 0 20px;
-  }
-  .menu-logo img {
-    max-width: 140px;
+    padding: 20px 20px;
   }
   .container {
     flex-direction: column;
   }
   .menu-nav li {
-    margin: 10px 20px 0 20px ;
+    margin: 20px 20px 0 20px ;
   }
   .menu-nav li:last-child {
-    margin: 10px 20px 0 20px;
+    margin: 20px 20px 0 20px;
   }
   .menu-nav a {
     font-size: 1rem;
@@ -188,7 +182,7 @@
     padding: 0 30px;
   }
   .intro-h1 {
-    max-width: 80%;
+    max-width: 90%;
   }
   .intro-info h1 {
     font-size: 1.4rem;
@@ -196,7 +190,7 @@
     margin: 30px 0 15px;
   }
   .intro-text {
-    max-width: 90%;
+    max-width: 80%;
   }
   .intro-info p {
     font-size: 1rem;
@@ -354,6 +348,16 @@
   margin-left: 10px;
 }
 
+@media (max-width: 1366px){
+  .operation-h1 {
+    margin-bottom: 15px;
+    max-width: 100%;
+  }
+  .operation-info {
+    margin-left: 4%;
+    }
+}
+
 @media (max-width: 1023px){
   .container-operation {
     flex-direction: column;
@@ -364,6 +368,7 @@
   }
   .operation-info {
     margin-left: 0;
+    margin-top: 8%;
   }
    .operation-h1 {
     margin-bottom: 15px;
@@ -393,13 +398,14 @@
     padding: 50px 20px;
   }
   .operation-info{
-    margin: 50px 0;
+    margin: 50px 0 50px 0;
   }
    .operation-h1 {
     margin-bottom: 15px;
-  }
+    }
   .operation-info h1 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
   }
   .operation-p p {
     font-size: 1rem;
