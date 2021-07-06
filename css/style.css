@@ -304,13 +304,14 @@
   max-width: 1440px;
   display: flex;
   margin: 0 auto;
+  padding: 5% 3%;
 }
 
 .operation-info {
   display: flex;
   flex-direction: column;
   align-self: center;
-  margin-left: 150px;
+  margin-left: 8%;
   color: hsl(0, 0%, 100%);
 }
 
@@ -343,12 +344,49 @@
 
 .operation-a a {
   color: #65e2d9;
-  
+}
+
+.operation-a a:hover {
+  text-decoration: underline;
 }
 
 .operation-a-img img {
   margin-left: 10px;
-  width: 100%;
+}
+
+@media (max-width: 1023px){
+  .container-operation {
+    flex-direction: column;
+  }
+  .operation-img img{
+    width: 100%;
+  }
+  .operation-info {
+    margin-left: 0;
+    padding: 50px 50px;
+  }
+   .operation-h1 {
+    margin-bottom: 15px;
+    max-width: 100%;
+  }
+  .operation-info h1 {
+    font-size: 2rem;
+  }
+  .operation-p p {
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+    margin-bottom: 30px;
+  }
+  .operation-p p:last-child {
+    margin-bottom: 15px;
+  }
+  .operation-a a {
+    font-size: 1.3rem;
+  }
+  .operation-a-img img {
+    width: 100%;
+  }
+
 }
 
 
