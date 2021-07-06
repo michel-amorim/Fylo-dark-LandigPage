@@ -153,8 +153,8 @@
 
 
 @media (min-width: 721px) and (max-width: 1024px) {
-  .intro-img img {
-    max-width: 550px;
+  .intro-img {
+      padding: 0 50px;
   }
   .intro-h1 {
     max-width: 90%;
@@ -184,29 +184,29 @@
   .intro {
     margin: 3rem 0 0 0;
   }
-  .intro-img img {
-    max-width: 280px;
+  .intro-img {
+    padding: 0 30px;
   }
   .intro-h1 {
-    max-width: 91%;
+    max-width: 80%;
   }
   .intro-info h1 {
     font-size: 1.4rem;
-    line-height: 1.5rem;
-    margin: 10px 0 10px;
+    line-height: 2rem;
+    margin: 30px 0 15px;
   }
   .intro-text {
-    max-width: 71%;
+    max-width: 90%;
   }
   .intro-info p {
     font-size: 1rem;
-    line-height: 1.3rem;
+    line-height: 1.2rem;
   }
   .intro-info a {
     font-size: 0.8rem;
-    margin: 15px auto;
-    max-width: 170px;
-    padding: 0.8rem 0.8rem;
+    margin: 30px auto 0 auto;
+    max-width: 200px;
+    padding: 1rem 1rem;
   }
 }
 
@@ -357,13 +357,13 @@
 @media (max-width: 1023px){
   .container-operation {
     flex-direction: column;
+    padding: 50px 50px;
   }
   .operation-img img{
     width: 100%;
   }
   .operation-info {
     margin-left: 0;
-    padding: 50px 50px;
   }
    .operation-h1 {
     margin-bottom: 15px;
@@ -386,7 +386,28 @@
   .operation-a-img img {
     width: 100%;
   }
+}
+@media (max-width: 600px){
 
+  .container-operation {
+    padding: 50px 20px;
+  }
+  .operation-info{
+    margin: 50px 0;
+  }
+   .operation-h1 {
+    margin-bottom: 15px;
+  }
+  .operation-info h1 {
+    font-size: 1.2rem;
+  }
+  .operation-p p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  .operation-a a {
+    font-size: 1rem;
+  }
 }
 
 
