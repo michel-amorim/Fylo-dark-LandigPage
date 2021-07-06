@@ -292,3 +292,63 @@
     line-height: 1.2rem;
   }
 }
+
+/* OPERATION */
+
+.operation {
+  background-color: hsl(218, 28%, 13%);
+  width: 100%;
+}
+
+.container-operation {
+  max-width: 1440px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.operation-info {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-left: 150px;
+  color: hsl(0, 0%, 100%);
+}
+
+.operation-h1 {
+  margin-bottom: 15px;
+  max-width: 50%;
+}
+
+.operation-info h1 {
+  font-weight: bold;
+  font-size: 2.3rem;
+  line-height: 2.7rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.operation-p {
+  margin-bottom: 15px;
+}
+
+.operation-p p {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 15px;
+}
+
+.operation-a {
+  display: flex;
+}
+
+.operation-a a {
+  color: #65e2d9;
+  
+}
+
+.operation-a-img img {
+  margin-left: 10px;
+  width: 100%;
+}
+
+
