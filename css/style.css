@@ -206,7 +206,7 @@
 .benefits {
   background-color: hsl(218, 28%, 13%);
   width: 100%;
-  margin: 100px 0 0 0;
+  padding: 100px 0;
 }
 
 .container-benefits {
@@ -290,6 +290,7 @@
 .operation {
   background-color: hsl(218, 28%, 13%);
   width: 100%;
+  padding: 100px 0;
 }
 
 .container-operation {
@@ -340,6 +341,7 @@
 
 .operation-a a:hover {
   text-decoration: underline;
+  color: hsl(0, 0%, 100%);
 }
 
 .operation-a-img img {
@@ -418,7 +420,7 @@
 .comments {
   background-color: hsl(218, 28%, 13%);
   width: 100%;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 .container-comments {
@@ -446,7 +448,8 @@
   border-radius: 50%;
 }
 
-.container-info h3, p {
+.container-info h3,
+.container-info p {
   color: hsl(0, 0%, 100%);
 }
 
@@ -470,10 +473,88 @@
 
 @media (max-width: 1023px) {
   .container-comments {
-    display:block;
+    display: block;
   }
   .container-info {
     padding: 30px;
     margin: 30px 50px;
   }
+}
+
+/*SING-UP*/
+
+.sing-up {
+  padding: 50px 0;
+  background-color: hsl(218, 28%, 13%);
+}
+
+.container-sing-up {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 40px;
+  background-color: hsl(219, 30%, 18%);
+  width: 100%;
+  max-width: 1000px;
+}
+
+.content-sing-up h1 {
+  font-weight: bold;
+  font-size: 2.3rem;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  margin: 40px 0 30px 0;
+}
+
+.content-p {
+  padding: 0 120px;
+}
+
+.content-p p {
+  font-size: 1.1rem;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  line-height: 1.5rem;
+}
+
+.content-form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.content-form label {
+  display: none;
+}
+
+.content-form input {
+  max-width: 550px;
+  width: 100%;
+  height: 60px;
+  padding-left: 40px;
+  border-radius: 50px;
+  border: 0;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.content-form input::placeholder {
+  font-size: 1.2rem;
+}
+
+.content-form button {
+  font-size: 1.2rem;
+  margin-left: 40px;
+  padding: 20px 60px;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 0;
+  background-color: rgb(51, 158, 204);
+  color: hsl(0, 0%, 100%);
+}
+
+.content-form button:hover {
+  background-color: #65e2d9;
 }
