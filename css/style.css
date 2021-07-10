@@ -427,6 +427,7 @@
   max-width: 1440px;
   display: flex;
   margin: 0 auto;
+ 
 }
 
 .container-info {
@@ -435,6 +436,7 @@
   background-color: hsl(219, 30%, 18%);
   padding: 30px;
   margin: 0 30px;
+   border-radius: 5px;
 }
 
 .container-text {
@@ -496,6 +498,7 @@
   background-color: hsl(219, 30%, 18%);
   width: 100%;
   max-width: 1000px;
+  border-radius: 5px;
 }
 
 .content-sing-up h1 {
@@ -558,3 +561,83 @@
 .content-form button:hover {
   background-color: #65e2d9;
 }
+
+
+
+/* FOOTER */
+
+
+
+.footer {
+  background-color: hsl(216, 53%, 9%);
+  padding: 100px 0;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.localization-logo {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.localization {
+  display: flex;
+}
+
+.localization a {
+  color: hsl(0, 0%, 100%);
+  max-width: 350px;
+  line-height: 1.5rem;
+}
+
+.localization-img {
+  margin-right: 20px;
+}
+
+.localization-img img {
+  width: 100%;
+}
+
+.contact {
+  margin-top: 100px; 
+}
+
+.content-contact {
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.contact-img {
+  margin-right: 20px;
+}
+
+.content-contact a {
+  color: hsl(0, 0%, 100%);
+}
+
+.about-us {
+  margin-top: 100px;
+}
+
+.about-us li {
+  padding-bottom: 20px;
+}
+
+.about-us a {
+  color: hsl(0, 0%, 100%);
+}
+
+.contact li {
+  padding-bottom: 20px;
+}
+
+.contact a {
+  color: hsl(0, 0%, 100%);
+}
+
+
