@@ -38,7 +38,6 @@
 
 .menu-nav a {
   font-size: 1.3rem;
-  color: hsl(0, 0%, 100%);
 }
 
 .menu-nav a:hover {
@@ -89,13 +88,12 @@
   display: flex;
   flex-direction: column;
   font-family: "Raleway", sans-serif;
-  margin: 5rem 0 0 0;
+  margin: 5rem 0 5rem 0;
 }
 
 .intro-img,
 .intro-info {
   align-self: center;
-  color: hsl(0, 0%, 100%);
   z-index: 2;
 }
 
@@ -111,20 +109,20 @@
 .intro-h1 h1 {
   font-weight: bold;
   text-align: center;
-  font-size: 2.3rem;
-  margin: 40px 0 30px 0;
-  line-height: 2.7rem;
+  font-size: 2.5rem;
+  margin: 40px 0 40px 0;
+  line-height: 3.8rem;
 }
 
 .intro-text {
   margin: 0 auto;
-  max-width: 40%;
+  max-width: 42%;
 }
 
 .intro-info p {
   text-align: center;
   font-size: 1.4rem;
-  line-height: 1.7rem;
+  line-height: 2rem;
 }
 
 .intro-info a {
@@ -134,9 +132,8 @@
   font-weight: bold;
   background-color: rgb(51, 158, 204);
   border-radius: 1.5rem;
-  margin: 25px auto;
+  margin: 40px auto 0 auto;
   max-width: 200px;
-  color: hsl(0, 0%, 100%);
   padding: 1rem 1rem;
 }
 
@@ -206,7 +203,7 @@
 .benefits {
   background-color: hsl(218, 28%, 13%);
   width: 100%;
-  padding: 100px 0;
+  padding: 10px 0;
 }
 
 .container-benefits {
@@ -225,11 +222,6 @@
 
 .content-img img {
   width: 100%;
-}
-
-.container-benefits h3,
-.content-text p {
-  color: hsl(0, 0%, 100%);
 }
 
 .container-benefits h3 {
@@ -290,7 +282,7 @@
 .operation {
   background-color: hsl(218, 28%, 13%);
   width: 100%;
-  padding: 100px 0;
+  padding: 10px 0;
 }
 
 .container-operation {
@@ -305,7 +297,6 @@
   flex-direction: column;
   align-self: center;
   margin-left: 8%;
-  color: hsl(0, 0%, 100%);
 }
 
 .operation-h1 {
@@ -427,7 +418,6 @@
   max-width: 1440px;
   display: flex;
   margin: 0 auto;
- 
 }
 
 .container-info {
@@ -436,7 +426,7 @@
   background-color: hsl(219, 30%, 18%);
   padding: 30px;
   margin: 0 30px;
-   border-radius: 5px;
+  border-radius: 5px;
 }
 
 .container-text {
@@ -448,11 +438,6 @@
 .comments-img img {
   max-width: 30px;
   border-radius: 50%;
-}
-
-.container-info h3,
-.container-info p {
-  color: hsl(0, 0%, 100%);
 }
 
 .container-info p {
@@ -505,7 +490,6 @@
   font-weight: bold;
   font-size: 2.3rem;
   text-align: center;
-  color: hsl(0, 0%, 100%);
   margin: 40px 0 30px 0;
 }
 
@@ -517,7 +501,6 @@
   font-size: 1.1rem;
   font-family: "Raleway", sans-serif;
   text-align: center;
-  color: hsl(0, 0%, 100%);
   line-height: 1.5rem;
 }
 
@@ -549,24 +532,20 @@
 
 .content-form button {
   font-size: 1.2rem;
+  font-weight: bold;
   margin-left: 40px;
   padding: 20px 60px;
   cursor: pointer;
   border-radius: 50px;
   border: 0;
   background-color: rgb(51, 158, 204);
-  color: hsl(0, 0%, 100%);
 }
 
 .content-form button:hover {
   background-color: #65e2d9;
 }
 
-
-
 /* FOOTER */
-
-
 
 .footer {
   background-color: hsl(216, 53%, 9%);
@@ -590,7 +569,6 @@
 }
 
 .localization a {
-  color: hsl(0, 0%, 100%);
   max-width: 350px;
   line-height: 1.5rem;
 }
@@ -604,7 +582,7 @@
 }
 
 .contact {
-  margin-top: 100px; 
+  margin-top: 100px;
 }
 
 .content-contact {
@@ -616,10 +594,6 @@
   margin-right: 20px;
 }
 
-.content-contact a {
-  color: hsl(0, 0%, 100%);
-}
-
 .about-us {
   margin-top: 100px;
 }
@@ -628,16 +602,6 @@
   padding-bottom: 20px;
 }
 
-.about-us a {
-  color: hsl(0, 0%, 100%);
-}
-
 .contact li {
   padding-bottom: 20px;
 }
-
-.contact a {
-  color: hsl(0, 0%, 100%);
-}
-
-
