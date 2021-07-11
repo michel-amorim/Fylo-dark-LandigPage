@@ -141,6 +141,6 @@ li {
   list-style: none;
 }
 
-h1, h2, h3, p, a, button {
+h1, h3, p, a, button {
   color: hsl(0, 0%, 100%);
 }
