@@ -1,3 +1,42 @@
+/* NOOT */
+
+@media (max-width: 1366px) {
+  .operation-info {
+    margin-left: 4%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .comments {
+    padding: 150px 0;
+  }
+  .container-comments {
+    flex-direction: column;
+  }
+  .container-info {
+    padding: 30px;
+    margin: 30px 50px;
+  }
+  .content-p {
+    padding: 0 65px;
+  }
+
+  /* SING-UP */
+
+  .container-sing-up {
+    width: 700px;
+    height: 300px;
+  }
+  .content-form input {
+    width: 350px;
+  }
+  .content-form button {
+    width: 220px;
+    height: 50px;
+    margin-left: 15px;
+  }
+}
+
 /* TABLET */
 
 @media (min-width: 600px) and (max-width: 959px) {
@@ -85,11 +124,59 @@
   .operation-a-img img {
     width: 100%;
   }
+
+  /* SING-UP */
+
+  .container-sing-up {
+    width: 550px;
+    height: 450px;
+    transform: translate(-14%, -105px);
+  }
+  .content-sing-up h1 {
+    font-size: 2.2rem;
+  }
+  .content-p {
+    padding: 0 75px;
+  }
+  .content-p p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+  }
+  .content-form {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-form input {
+    margin-top: 25px;
+  }
+  .content-form button {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 392px;
+    height: 52px;
+  }
+
+  /* FOOTER */
+
+  .container-footer {
+    flex-direction: column;
+    align-items: center
+  }
+  .contact {
+    margin-top: 50px;
+  }
+  .about-us {
+    margin-top: 25px;
+  }
+  .contact {
+    margin-top: 25px;
+  }
+
 }
 
 /* MOBILE */
 
-@media (min-width: 320px) and (max-width: 599px) {
+@media (max-width: 599px) {
   .menu {
     padding: 20px 20px 0 20px;
   }
@@ -135,72 +222,53 @@
     height: 10px;
   }
 
-/* BENEFITS */
+  /* BENEFITS */
 
-.benefits {
-  margin: 50px 0 0 0;
-}
-.container-benefits {
-  flex-direction: column;
-}
+  .benefits {
+    margin: 50px 0 0 0;
+  }
+  .container-benefits {
+    flex-direction: column;
+  }
 
-.container-benefits h3 {
-  font-size: 1.3rem;
-}
-.content-text {
-  padding: 0px 30px;
-}
-.container-benefits p {
-  font-size: 0.9rem;
-  text-align: center;
-  line-height: 1.2rem;
-}
+  .container-benefits h3 {
+    font-size: 1.3rem;
+  }
+  .content-text {
+    padding: 0px 30px;
+  }
+  .container-benefits p {
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 1.2rem;
+  }
 
-/* OPERAÇÂO */
+  /* OPERAÇÂO */
 
-.container-operation {
-    padding: 50px 30px;
+  .container-operation {
+    padding: 50px 20px;
+    flex-direction: column;
+  }
+  .operation-img img {
+    width: 100%;
   }
   .operation-info {
     margin: 50px 0 50px 0;
   }
   .operation-h1 {
+    max-width: 100%;
     margin-bottom: 15px;
   }
   .operation-info h1 {
-    font-size: 1.4rem;
-    line-height: 2rem;
+    font-size: 1.2rem;
   }
   .operation-p p {
     font-size: 1rem;
     line-height: 1.2rem;
+    max-width: 100%;
   }
   .operation-a a {
     font-size: 1rem;
   }
-
 }
 
-
-
-@media (max-width: 1366px) {
-  .operation-info {
-    margin-left: 4%;
-  }
-}
-
-@media (max-width: 600px) {
- 
-}
-
-/*comentario*/
-
-@media (max-width: 1024px) {
-  .container-comments {
-    flex-direction: column;
-  }
-  .container-info {
-    padding: 30px;
-    margin: 30px 50px;
-  }
-}
