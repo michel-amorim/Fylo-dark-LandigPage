@@ -44,8 +44,6 @@
   text-decoration: underline;
 }
 
-
-
 /* MAIN - INTRODUCTION */
 
 .intro {
@@ -105,8 +103,6 @@
   background-color: #65e2d9;
 }
 
-
-
 /* BENEFITS */
 
 .benefits {
@@ -149,9 +145,6 @@
   text-align: center;
   line-height: 1.5rem;
 }
-
-
-
 
 /* OPERATION */
 
@@ -215,8 +208,6 @@
   margin-left: 10px;
 }
 
-
-
 /*COMMENTS*/
 
 .comments {
@@ -269,7 +260,6 @@
 .comments-text p {
   font-size: 0.7rem;
 }
-
 
 /*SING-UP*/
 
@@ -362,53 +352,46 @@
   margin: 0 auto;
 }
 
-.localization-logo {
-  width: 100%;
+.localization-footer {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+}
+
+.logo-footer {
   margin-bottom: 40px;
 }
 
-.localization {
+.acces-footer {
   display: flex;
 }
 
-.localization a {
-  max-width: 350px;
+.acces-footer a {
   line-height: 1.5rem;
 }
 
-.localization-img {
-  margin-right: 20px;
+.acces-footer img {
+  margin-right: 30px;
 }
 
-.localization-img img {
-  width: 100%;
+.contact-footer {
+  margin-top: 90px;
 }
 
-.contact {
-  margin-top: 100px;
-}
-
-.content-contact {
+.content-contact-footer {
   display: flex;
-  padding-bottom: 15px;
+  padding: 10px 0;
 }
 
-.contact-img {
+.contact-footer-img {
   margin-right: 20px;
 }
 
-.about-us {
-  margin-top: 100px;
+.about {
+  margin-top: 90px;
 }
 
-.about-us li,
-.contact li {
-  padding-bottom: 20px;
+.about nav ul li {
+  padding: 10px 0;
 }
 
-.localization a:hover,
-.content-contact:hover,
-.about-us a:hover,
-.contact a:hover {
-  font-weight: bold;
-}
