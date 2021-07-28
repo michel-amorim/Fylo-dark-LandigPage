@@ -79,6 +79,9 @@
     margin: 20px auto 0 auto;
     padding: 0.8rem 1rem;
   }
+  .intro-bg {
+    display: none;
+  }
 
   /* BENEFITS */
 
@@ -128,9 +131,9 @@
   /* SING-UP */
 
   .container-sing-up {
-    width: 550px;
+    width: 500px;
     height: 450px;
-    transform: translate(-14%, -105px);
+    transform: translate(-50%, -20%)
   }
   .content-sing-up h1 {
     font-size: 2.2rem;
@@ -234,6 +237,9 @@
     width: 200px;
     height: 10px;
   }
+  .intro-bg {
+    display: none;
+  }
 
   /* BENEFITS */
 
@@ -284,11 +290,13 @@
     font-size: 1rem;
   }
 
+  /* SING-UP */
+
 
   .container-sing-up {
-    width: 340px;
-    height: 410px;
-    transform: translate(-22%, -100px);
+    width: 320px;
+    height: 450px;
+    transform: translate(-50%, -30%);
   }
   .content-sing-up h1 {
     font-size: 1.5rem;
@@ -317,7 +325,7 @@
 
   
   /* FOOTER */
-  
+
   .container-footer {
     flex-direction: column;
     margin-left: 30px;
