@@ -13,6 +13,9 @@
   .container-comments {
     flex-direction: column;
   }
+  .comments-bg {
+    transform: translate(70%, 0);
+  }
   .container-info {
     padding: 30px;
     margin: 30px 50px;

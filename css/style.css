@@ -240,9 +240,8 @@
 
 .comments-bg {
   position: absolute;
-  left: -8%;
-  top: -14%;
-  z-index: -1;
+  transform: translate(70%, -70%);
+  z-index: 0;
 }
 
 .container-text {
