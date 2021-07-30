@@ -6,6 +6,7 @@
   }
 }
 
+
 @media (max-width: 1024px) {
   .comments {
     padding-top: 0;
@@ -41,7 +42,11 @@
   }
 }
 
+
+
 /* TABLET */
+
+
 
 @media (min-width: 600px) and (max-width: 959px) {
   /* MENU */
