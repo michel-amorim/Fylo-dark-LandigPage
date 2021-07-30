@@ -92,6 +92,9 @@
   .container-benefits {
     flex-direction: column;
   }
+  .content-benefits {
+    max-width: 100%;
+  }
   .container-benefits h3 {
     font-size: 1.7rem;
   }
@@ -253,7 +256,9 @@
   .container-benefits {
     flex-direction: column;
   }
-
+  .content-benefits {
+    max-width: 100%;
+  }
   .container-benefits h3 {
     font-size: 1.3rem;
   }

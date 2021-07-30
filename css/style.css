@@ -199,13 +199,17 @@
   display: flex;
 }
 
-.operation-a a {
-  color: #65e2d9;
+.operation-border {
+  border-bottom: 1px solid #65e2d9;
+  display: flex;
 }
 
-.operation-a a:hover {
-  text-decoration: underline;
-  color: hsl(0, 0%, 100%);
+.operation-border a {
+  margin-bottom: 10px;
+}
+
+.operation-a a {
+  color: #65e2d9;
 }
 
 .operation-a-img img {
