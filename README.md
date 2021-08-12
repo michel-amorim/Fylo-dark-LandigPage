@@ -1,5 +1,7 @@
 # Fylo 
 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/michel-amorim/Fylo-dark-LandigPage/edit/master/README.md)
+
 youthful-pasteur-42a1d8.netlify.app
 
 ## Sobre o projeto
